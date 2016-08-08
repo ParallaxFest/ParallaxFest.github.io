@@ -1,4 +1,14 @@
 div #page {
+	
   height: 100%;
   width: 100;
+  
+}
+
+span .title {
+	
+	font-family: Tahoma, Geneva, sans-serif;
+	font-style: bold;
+	font-size: 30px;
+	
 }
