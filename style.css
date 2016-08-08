@@ -1,14 +1,72 @@
-div #page {
+body, html {
+	padding: 0px;
+	margin: 0px;
+    height: 100%;
+	font: 400 15px/1.8 Tahoma, Geneva, sans-serif;
+}
+
+.bg1, .bg2, .bg3 {
 	
-  height: 100%;
-  width: 100;
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
   
 }
 
-span .title {
+.bg2, .bg3 {
 	
-	font-family: Tahoma, Geneva, sans-serif;
-	font-style: bold;
+	opacity: 0.60;
+	
+}
+
+.bg1 {
+	
+    background-image: url("bg.gif");
+    min-height: 100%;
+	
+}
+
+.bg2 {
+	
+    background-image: url("collection.jpg");
+    min-height: 500px;
+	
+}
+
+.bg3 {
+	
+	background-image: url("usher.jpg");
+    min-height: 500px;
+	
+}
+
+.caption {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+
+.title {
+	
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
 	font-size: 30px;
+	letter-spacing: 5px;
+	
+}
+
+.textbox {
+	
+	color: #777;
+	background-color: white;
+	text-align: center;
+	padding: 50px 80px;
+	text-align: justify;
 	
 }
