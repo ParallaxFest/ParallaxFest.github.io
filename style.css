@@ -70,3 +70,55 @@ body, html {
 	text-align: justify;
 	
 }
+
+.social {
+	
+	position: relative;
+	top: 20px;
+	left: 20px;
+	height: 60px;
+	float: left;
+	
+}
+
+.nav {
+	
+	position: relative;
+	top: 20px;
+	right: 20px;
+	float: right;
+	font-size: 20px;
+	
+}
+
+.bottom {
+	
+	padding-top: 5px;
+	font-style: bold;
+	background-color: #444;
+	min-height: 40px;
+	text-align: center;
+	color: #fff;
+	
+}
+
+.bottom a {
+	
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+.nav a {
+	
+	padding: 5px;
+	color: #000;
+	text-decoration: none;
+	
+}
+
+.social img {
+	
+	padding: 5px;
+	
+}
