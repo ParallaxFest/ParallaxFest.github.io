@@ -5,7 +5,7 @@ body, html {
 	font: 400 15px/1.8 Tahoma, Geneva, sans-serif;
 }
 
-.bg1, .bg2, .bg3 {
+.bg1, .bg2, .bg3, .bg4 {
 	
 	position: relative;
 	background-attachment: fixed;
@@ -15,7 +15,7 @@ body, html {
   
 }
 
-.bg2, .bg3 {
+.bg2, .bg3, .bg4 {
 	
 	opacity: 0.60;
 	
@@ -42,6 +42,13 @@ body, html {
 	
 }
 
+.bg4 {
+	
+	background-image: url("auditorium.jpg");
+	min-height: 400px;
+	
+}
+
 .caption {
 	position: absolute;
 	left: 0;
@@ -51,6 +58,12 @@ body, html {
 	color: #000;
 }
 
+.caption a {
+	
+	text-decoration: none;
+	
+}
+
 .title {
 	
 	background-color: #111;
@@ -58,6 +71,12 @@ body, html {
 	padding: 20px;
 	font-size: 30px;
 	letter-spacing: 5px;
+	
+}
+
+.title a {
+	
+	text-decoration: none;
 	
 }
 
