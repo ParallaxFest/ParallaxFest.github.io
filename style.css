@@ -5,7 +5,8 @@ body, html {
 	font: 400 15px/1.8 Tahoma, Geneva, sans-serif;
 }
 
-.bg1, .bg2, .bg3, .bg4 {
+
+.bg2, .bg3, .bg4 {
 	
 	position: relative;
 	background-attachment: fixed;
@@ -23,7 +24,11 @@ body, html {
 
 .bg1 {
 	
-    background-image: url("bg.gif");
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-image: url("back.gif");
     min-height: 100%;
 	
 }
