@@ -13,13 +13,8 @@ body, html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	opacity: 0.8;
   
-}
-
-.bg2, .bg3, .bg4 {
-	
-	opacity: 0.60;
-	
 }
 
 .bg1 {
