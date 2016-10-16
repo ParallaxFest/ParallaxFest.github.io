@@ -6,7 +6,7 @@ body, html {
 }
 
 
-.bg2, .bg3, .bg4 {
+.bg2, .bg3, .bg4, .bg5 {
 	
 	position: relative;
 	background-attachment: fixed;
@@ -46,6 +46,13 @@ body, html {
 	
 	background-image: url("auditorium.jpg");
 	min-height: 400px;
+	
+}
+
+.bg5 {
+	
+	background-image: url("soundwall.jpg");
+	min-height: 500px;
 	
 }
 
@@ -191,5 +198,20 @@ body, html {
 	max-width:142px;
 	min-height:100%;
 	padding-right:15px;
+	
+}
+
+.schedule {
+	
+	max-width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.scheduleday {
+	
+	width: 30%;
+	text-align: left;
 	
 }
