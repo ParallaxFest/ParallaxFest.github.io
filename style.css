@@ -189,7 +189,15 @@ body, html {
 .shortbox {
 	
 	width: 50%;
+	min-height: 275px;
 	text-align:left;
+	
+}
+
+.shortbox p {
+	
+	margin-left: 157px;
+	padding-right: 20px;
 	
 }
 .shortimg {
