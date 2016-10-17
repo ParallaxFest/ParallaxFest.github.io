@@ -226,7 +226,7 @@ body, html {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 720px) {
 /* applies only if the screen is narrower than 500px */
 .schedule {
 	
