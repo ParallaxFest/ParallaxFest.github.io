@@ -224,3 +224,15 @@ body, html {
 	text-align: left;
 	
 }
+
+
+@media screen and (max-width: 500px) {
+/* applies only if the screen is narrower than 500px */
+.schedule {
+	
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+  }
