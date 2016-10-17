@@ -190,7 +190,7 @@ body, html {
 .shortbox {
 	
 	width: 50%;
-	height: 275px;
+	height: 100%;
 	text-align:left;
 	
 	
@@ -202,6 +202,7 @@ body, html {
 	padding-right: 20px;
 	
 }
+
 .shortimg {
 	
 	float:left;
