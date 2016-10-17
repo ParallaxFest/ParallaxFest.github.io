@@ -189,8 +189,9 @@ body, html {
 .shortbox {
 	
 	width: 50%;
-	min-height: 275px;
+	height: 275px;
 	text-align:left;
+	
 	
 }
 
